@@ -145,39 +145,30 @@ function SchedulePanel() {
 
 function CalcIcon() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round">
-      <rect x="4" y="2.5" width="16" height="19" rx="2.5" />
-      <line x1="7" y1="6.5" x2="17" y2="6.5" />
-      <circle cx="7.6" cy="11.2" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="12" cy="11.2" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="16.4" cy="11.2" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="7.6" cy="15" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="12" cy="15" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="16.4" cy="15" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="7.6" cy="18.8" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="12" cy="18.8" r="0.9" fill="currentColor" stroke="none" />
-      <circle cx="16.4" cy="18.8" r="0.9" fill="currentColor" stroke="none" />
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19Z" fill="#1C2424" />
+      <path d="M11.25 7.72H6.25V9.22H11.25V7.72Z" fill="#1C2424" />
+      <path d="M18 15.75H13V17.25H18V15.75Z" fill="#1C2424" />
+      <path d="M18 13.25H13V14.75H18V13.25Z" fill="#1C2424" />
+      <path d="M8 18H9.5V16H11.5V14.5H9.5V12.5H8V14.5H6V16H8V18Z" fill="#1C2424" />
+      <path d="M14.09 10.95L15.5 9.54L16.91 10.95L17.97 9.89L16.56 8.47L17.97 7.06L16.91 6L15.5 7.41L14.09 6L13.03 7.06L14.44 8.47L13.03 9.89L14.09 10.95Z" fill="#1C2424" />
     </svg>
   )
 }
 
 function ChatIcon() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M4 5.5h16v11.5H9.5L5 21v-4H4V5.5Z" />
-      <path d="M8 10.5l2.3 2.3L16 7.5" />
+    <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22 4H6C4.9 4 4 4.9 4 6V24L8 20H22C23.1 20 24 19.1 24 18V6C24 4.9 23.1 4 22 4ZM22 18H7.17L6 19.17V6H22V18Z" fill="#1C2424" />
+      <path d="M14 17L15.57 13.57L19 12L15.57 10.43L14 7L12.43 10.43L9 12L12.43 13.57L14 17Z" fill="#1C2424" />
     </svg>
   )
 }
 
 function ScheduleIcon() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="5" width="18" height="16" rx="2.5" />
-      <line x1="3" y1="9.5" x2="21" y2="9.5" />
-      <line x1="7.5" y1="2.7" x2="7.5" y2="6.3" />
-      <line x1="16.5" y1="2.7" x2="16.5" y2="6.3" />
-      <rect x="6.5" y="12.5" width="4.5" height="3.5" fill="currentColor" stroke="none" />
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 7H10V9H20V21H4V9H6V13H8V5H14V1H6V7H4C2.9 7 2 7.9 2 9V21C2 22.1 2.9 23 4 23H20C21.1 23 22 22.1 22 21V9C22 7.9 21.1 7 20 7Z" fill="#1C2424" />
     </svg>
   )
 }
