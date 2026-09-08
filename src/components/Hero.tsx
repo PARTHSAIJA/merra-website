@@ -1,3 +1,5 @@
+import heroDesk from '../assets/hero-desk.jpg'
+
 export default function Hero() {
   return (
     <section className="hero container" id="top">
@@ -10,7 +12,7 @@ export default function Hero() {
       <a className="button button-dark" href="#demo">Book a Demo</a>
 
       <div className="hero-stage" aria-label="Merra product preview">
-        <div className="stage-card stage-left">
+        <div className="stage-card stage-left" style={{ backgroundImage: `url(${heroDesk})` }}>
           <div className="mini-phone">
             <div className="phone-top">Hi, John</div>
             <div className="phone-card">

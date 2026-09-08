@@ -1,11 +1,10 @@
+import Logo from './Logo'
+
 export default function Header() {
   return (
     <header className="site-header container">
       <a className="brand" href="#top" aria-label="Merra home">
-        <span className="brand-mark" aria-hidden="true">
-          <i></i><i></i><i></i><i></i><i></i>
-        </span>
-        <span className="brand-word">merra</span>
+        <Logo className="brand-logo" />
       </a>
       <nav className="nav" aria-label="Primary navigation">
         <a className="nav-pill" href="#product">Product</a>
