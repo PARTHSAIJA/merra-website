@@ -94,7 +94,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   align-items: end;
 }
 .stage-card { border-radius: 20px; overflow: hidden; }
-.stage-left { background: var(--blue); min-height: 560px; padding: 70px 48px 0; }
+.stage-left { background-color: var(--blue); background-size: cover; background-position: 32% 38%; min-height: 560px; padding: 70px 48px 0; }
 .stage-main { background: var(--cream); min-height: 640px; padding: 96px 80px 0; }
 
 .mini-phone {
