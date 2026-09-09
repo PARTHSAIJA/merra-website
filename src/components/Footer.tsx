@@ -9,7 +9,8 @@ export default function Footer() {
         </a>
         <div className="footer-links">
           <a href="/privacy.html">Privacy Policy</a>
-          <a href="mailto:support@merra.com">Support</a>
+          <a href="/terms.html">Terms of Service</a>
+          <a href="/support.html">Support</a>
           <span>© 2026 Merra</span>
         </div>
       </div>
