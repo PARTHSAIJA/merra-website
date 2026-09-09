@@ -1,7 +1,7 @@
 import heroDesk from '../assets/hero-desk.jpg'
-import dashboardBg from '../assets/Rectangle 2.png'
-import dashboardImg from '../assets/home.png'
-import phoneImg from '../assets/1.1.1 Home.png'
+import dashboardBg from '../assets/4x/Rectangle 2.png'
+import dashboardImg from '../assets/4x/home.png'
+import phoneImg from '../assets/4x/1.1.1 Home.png'
 
 export default function Hero() {
   return (

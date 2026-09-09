@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import payrollVisual from '../assets/Frame 268 (3).png'
-import reimbursementsVisual from '../assets/Frame 268.png'
-import scheduleVisual from '../assets/Frame 268 (1).png'
+import payrollVisual from '../assets/4x/Frame 268.png'
+import reimbursementsVisual from '../assets/4x/Frame 268 (1).png'
+import scheduleVisual from '../assets/4x/Frame 268 (2).png'
 
 const features = [
   {
