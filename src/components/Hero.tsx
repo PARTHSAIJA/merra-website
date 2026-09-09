@@ -12,7 +12,9 @@ export default function Hero() {
       <a className="button button-dark" href="#demo">Book a Demo</a>
 
       <div className="hero-stage" aria-label="Merra product preview">
-        <div className="stage-card stage-left" style={{ backgroundImage: `url(${heroDesk})` }}>
+        <div className="stage-photo">
+          <div className="stage-photo-bg" style={{ backgroundImage: `url(${heroDesk})` }} />
+
           <div className="mini-phone">
             <div className="phone-top">Hi, John</div>
             <div className="phone-card">
@@ -51,7 +53,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="stage-card stage-main">
+        <div className="stage-dashboard">
           <DashboardPreview />
         </div>
       </div>
