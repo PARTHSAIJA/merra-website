@@ -286,6 +286,28 @@ em.approved, em.pending { width: fit-content; justify-self: end; font-style: nor
 .benefit-card h3 { font-family: 'Average'; font-size: 25px; font-weight: 400; margin: 0 0 24px; }
 .benefit-card p { font-size: 17px; line-height: 1.5; margin: 0; }
 
+.legal-hero { text-align: center; padding: 60px 0 40px; }
+.legal-hero h1 {
+  margin: 0 auto;
+  max-width: 760px;
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(40px, 4.5vw, 56px);
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+.legal-hero .hero-copy { margin: 24px auto 0; font-size: 18px; line-height: 1.5; }
+
+.legal-content { max-width: 900px; padding: 40px 0 120px; font-size: 15px; line-height: 1.6; color: var(--dark); }
+.legal-meta { color: var(--muted); margin-bottom: 24px; }
+.legal-content h2 { font-family: 'Average'; font-weight: 400; font-size: 26px; margin: 48px 0 16px; }
+.legal-content h3 { font-family: 'Average'; font-weight: 400; font-size: 19px; margin: 28px 0 12px; }
+.legal-content p { margin: 0 0 16px; }
+.legal-content ul { margin: 0 0 16px; padding-left: 22px; display: grid; gap: 10px; }
+.legal-content li { line-height: 1.55; }
+.legal-content a { text-decoration: underline; }
+.legal-disclaimer { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+
 .cta-section { background: var(--dark); color: white; padding: 125px 0 95px; text-align: center; }
 .cta-inner h2 { font-family: 'Average'; font-size: clamp(44px, 4.3vw, 62px); font-weight: 400; line-height: 1; max-width: 760px; margin: 0 auto 55px; }
 .site-footer { background: var(--dark); color: white; padding: 24px 0 46px; }
