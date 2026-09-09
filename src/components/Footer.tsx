@@ -11,6 +11,9 @@ export default function Footer() {
           <a href="/privacy.html">Privacy Policy</a>
           <a href="/terms.html">Terms of Service</a>
           <a href="/support.html">Support</a>
+          <a href="/cookies.html">Cookie Policy</a>
+          <a href="/data-deletion.html">Data Deletion</a>
+          <a href="/refunds.html">Refund Policy</a>
           <span>© 2026 Merra</span>
         </div>
       </div>
