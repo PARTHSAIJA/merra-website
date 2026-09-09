@@ -82,6 +82,33 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 .hero-copy { margin: 32px auto 28px; font-size: 20px; line-height: 1.5; color: var(--dark); }
 
+.coming-soon { min-height: 100vh; padding: 40px 0; display: flex; flex-direction: column; }
+.coming-soon-body { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.coming-soon-body h1 {
+  margin: 0 auto;
+  max-width: 760px;
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(56px, 8vw, 104px);
+  line-height: .95;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+.coming-soon-body .hero-copy { max-width: 480px; margin: 22px auto 40px; }
+.password-gate { display: flex; gap: 10px; }
+.password-gate input {
+  min-height: 56px;
+  width: 260px;
+  padding: 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--dark);
+  font: inherit;
+  font-size: 16px;
+}
+.password-gate input:focus { outline: 2px solid var(--dark); outline-offset: 2px; }
+.password-error { margin-top: 14px; color: #B3261E; font-size: 14px; }
+
 /* Hero stage: photo and dashboard are flex siblings sized to the Figma
    aspect ratios; the phone overlaps the photo using percentages relative
    to the photo's own box, so it stays correctly positioned at any width.
@@ -233,6 +260,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .hero { padding-bottom: 74px; }
   .hero h1 { font-size: clamp(54px, 17vw, 72px); line-height: .9; }
   .hero-copy { font-size: 16px; line-height: 1.45; }
+  .password-gate { flex-direction: column; width: 100%; max-width: 300px; margin: 0 auto; }
+  .password-gate input { width: 100%; }
   .hero-stage { margin-top: 58px; }
   .product-section,.benefits-section { padding-top: 82px; padding-bottom: 82px; }
   .section-heading p { font-size: 16px; }
