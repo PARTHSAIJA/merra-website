@@ -45,11 +45,6 @@ export default function PrivacyPolicy() {
 
         <h2>8. Contact Us</h2>
         <p>Questions about this Privacy Policy can be sent to: <a href="mailto:admin@merra.com.au">admin@merra.com.au</a></p>
-
-        <p className="legal-disclaimer">
-          Disclaimer: This document is a general privacy policy template. It should be reviewed by qualified legal
-          counsel to ensure complete compliance with applicable local requirements.
-        </p>
       </section>
     </>
   )

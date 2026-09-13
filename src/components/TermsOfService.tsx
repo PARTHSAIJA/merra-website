@@ -40,11 +40,6 @@ export default function TermsOfService() {
 
         <h2>9. Contact Us</h2>
         <p>Questions about these Terms can be sent to: <a href="mailto:admin@merra.com.au">admin@merra.com.au</a></p>
-
-        <p className="legal-disclaimer">
-          Disclaimer: This document is a general terms of service template. It should be reviewed by qualified legal
-          counsel to ensure complete compliance with applicable local requirements.
-        </p>
       </section>
     </>
   )
