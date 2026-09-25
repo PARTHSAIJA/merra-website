@@ -1,8 +1,2 @@
 node_modules/
 dist/
-
-# Amplify Gen 2 — generated locally by `ampx sandbox` / `ampx pipeline-deploy`
-.amplify/
-amplify_outputs*
-amplifyconfiguration*
-public/amplify_outputs.json

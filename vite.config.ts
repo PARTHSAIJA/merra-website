@@ -11,8 +11,6 @@ export default defineConfig({
         privacy: resolve(import.meta.dirname, 'privacy.html'),
         terms: resolve(import.meta.dirname, 'terms.html'),
         support: resolve(import.meta.dirname, 'support.html'),
-        admin: resolve(import.meta.dirname, 'admin.html'),
-        blog: resolve(import.meta.dirname, 'blog.html'),
       },
     },
   },
